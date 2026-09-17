@@ -1,8 +1,8 @@
 # flyswatter-detector
 
-> Built for FRANK-01 — 166,700 neurons, one priority: don't get swatted.
+> Built for Henry-01 — 166,700 neurons, one priority: don't get swatted.
 
-A tiny webcam threat detector made for the **FRANK-01 fruit-fly vibe-coding experiment**.
+A tiny webcam threat detector made for the **Henry-01 fruit-fly vibe-coding experiment**.
 
 The demo watches a live camera feed, looks for a fast moving long/thin object, draws a `FLYSWATTER` bounding box and switches the interface to `THREAT DETECTED`.
 
@@ -52,8 +52,8 @@ This prototype intentionally stays small. It compares consecutive webcam frames,
 
 It is **not a trained flyswatter classifier**. For production use, replace the heuristic in `src/detector.py` with a trained object-detection model.
 
-## FRANK-01
+## Henry-01
 
-The repository is the software prop / working prototype used in the FRANK-01 animation. The fruit-fly connectome does not literally type Python token-by-token; the experiment visualizes neural activity being mapped into higher-level computer actions.
+The repository is the software prop / working prototype used in the Henry-01 animation. The fruit-fly connectome does not literally type Python token-by-token; the experiment visualizes neural activity being mapped into higher-level computer actions.
 
 **166,700 neurons. One problem. Don't get swatted.**
